@@ -1,0 +1,43 @@
+<html>
+  <title> Spardy main html </title>
+
+<head>
+  <style>
+  body {
+    background-color: #3C3635;
+    font-style: normal;
+  }
+  h1 {color: white;}
+  p {color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive}
+  </style>
+</head>
+<body>
+  <input type="text" name="member_name" size = "20">
+  <h1> Today
+    <p id='date'></p>
+    <script>
+      n =  new Date();
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("date").innerHTML = y + "/" + m + "/" + d +"";
+    </script>
+
+  </h1>
+  <p>sleeps
+  <p>
+    calander
+    <p>
+      cld_month
+      cld_week
+  <p>
+    collect(input information)
+  <p>
+    spardy
+    <p>
+      show insights
+      give problems
+</body>
+
+</html>
